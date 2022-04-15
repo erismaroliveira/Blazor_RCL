@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor_AppDemo1", "Blazor_AppDemo1\Blazor_AppDemo1.csproj", "{43FF6F82-AD7E-4DA7-8CE7-C2D2215B27FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinhaLib", "MinhaLib\MinhaLib.csproj", "{C30F5790-2A21-4677-96FD-DC58AE6659C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43FF6F82-AD7E-4DA7-8CE7-C2D2215B27FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43FF6F82-AD7E-4DA7-8CE7-C2D2215B27FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43FF6F82-AD7E-4DA7-8CE7-C2D2215B27FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43FF6F82-AD7E-4DA7-8CE7-C2D2215B27FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C30F5790-2A21-4677-96FD-DC58AE6659C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C30F5790-2A21-4677-96FD-DC58AE6659C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C30F5790-2A21-4677-96FD-DC58AE6659C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C30F5790-2A21-4677-96FD-DC58AE6659C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {905592BE-F7A4-48E0-8C30-DB60E8EEF87B}
+	EndGlobalSection
+EndGlobal

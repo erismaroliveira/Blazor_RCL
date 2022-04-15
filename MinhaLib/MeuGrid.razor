@@ -1,0 +1,30 @@
+﻿@typeparam TItem
+
+<table border="1">
+    <thead>
+        <tr>@Cabecalho</tr>
+    </thead>
+    <tbody>
+        @foreach(var item in itens)
+        {
+            <tr>@Linha(item)</tr>
+        }
+    </tbody>
+    <tfoot>
+        <tr>@Rodape</tr>
+    </tfoot>
+</table>
+
+@code {
+    [Parameter]
+    public RenderFragment Cabecalho { get; set; }
+
+    [Parameter]
+    public RenderFragment<TItem> Linha { get; set; }
+
+    [Parameter]
+    public RenderFragment Rodape { get; set; }
+
+    [Parameter]
+    public IReadOnlyList<TItem> itens { get; set; }
+}

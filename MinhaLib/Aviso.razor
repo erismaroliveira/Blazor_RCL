@@ -1,0 +1,14 @@
+﻿@if (Exibir)
+{
+    <div class="alert alert-info" role="alert">
+        @ChildContent
+    </div>
+}
+
+@code {
+    [Parameter]
+    public bool Exibir { get; set; }
+
+    [Parameter]
+    public RenderFragment ChildContent { get; set; }
+}
